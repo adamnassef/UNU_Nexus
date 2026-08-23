@@ -2,9 +2,9 @@
 -- Run AFTER schema.sql and permissions.sql in the Supabase SQL Editor.
 -- Replaces open `using (true)` policies with authenticated, scoped RLS.
 --
--- Break-glass (UN ICT):
+-- Extra admin (SQL Editor):
 --   update public.app_settings
---     set value = 'ict-admin@unu.edu,ayhnassef@unu.edu'
+--     set value = 'teammate@unu.edu,ayhnassef@unu.edu'
 --     where key = 'bootstrap_admin_emails';
 --   select public.elevate_bootstrap_admins();
 

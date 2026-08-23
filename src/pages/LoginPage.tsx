@@ -138,7 +138,7 @@ export default function LoginPage() {
         </div>
 
         <p className="login-panel-foot">
-          Need access? Contact your programme administrator or UNU Global Health ICT.
+          Need access? Contact your programme administrator.
         </p>
       </div>
     </div>
